@@ -5,3 +5,9 @@ Pipeline for analysing 10X single cell data
 
 If you want to contribute, please write an email to alexander.peltzer@qbic.uni-tuebingen.de or sven.fillinger@qbic.uni-tuebingen.de.
 
+## Documentation
+
+* [Ideas](docs/ideas.md)
+* [Roadmap](docs/roadmap.md)
+* [Workflow Draft](docs/workflows_draft.md)
+* [Literature](docs/literature.md) 
