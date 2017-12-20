@@ -27,6 +27,10 @@ Here is a hypothetical upstream workflow:
 | Count unique reads per genes per cell | umi_tools count | BAM | Counts.txt
 
 We have to add a http://multiqc.info/ report for every step where it is necessary.
+
+**Remark from Phil:**
+_NB: To confirm, there should be a single MultiQC process which runs at the end, not one for every step. If there are optional processes then dummy channels have to be created and closed for any step that does not run. Bit of a faff, but I haven't figured out a better system yet._
+
 **We are still lacking some trimming of the reads, if the quality is too bad (TrimGalore!, Cutadapt, Trimmomatic). What else are we missing?**
 
 ## Downstream
