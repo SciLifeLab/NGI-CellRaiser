@@ -9,5 +9,5 @@ If you want to contribute, please write an email to alexander.peltzer@qbic.uni-t
 
 * [Ideas](docs/ideas.md)
 * [Roadmap](docs/roadmap.md)
-* [Workflow Draft](docs/workflows_draft.md)
+* [Workflow Draft](docs/workflow_draft.md)
 * [Literature](docs/literature.md) 

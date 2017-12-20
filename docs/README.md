@@ -4,6 +4,6 @@
 
 * [Ideas](ideas.md)
 * [Roadmap](roadmap.md)
-* [Workflow Draft](workflows_draft.md)
+* [Workflow Draft](workflow_draft.md)
 * [Literature](literature.md) 
 
