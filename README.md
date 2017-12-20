@@ -37,6 +37,8 @@ _NB: To confirm, there should be a single MultiQC process which runs at the end,
 
 There are various a GUI tools for downstream analysis: https://github.com/diazlab/scell, http://ilab.hawaii.edu:8111/?_state_id_=a9000d20618de32e&tab=info
 
+One important R package is http://satijalab.org/seurat/. Among others it provides functionality for QC, normalization, dimension reduction (PCA, tSNE), cell clustering, find diff. expr. genes, assign cell type identites to clusters. Of all steps static visualizations are supported. 
+
 **The major question I have here is: Which parts of the downstream analysis can we automate?**
 
 Quality Check of the cells
