@@ -4,7 +4,8 @@ Collection of ideas regarding the workflow implementation.
 
 ## Notes
 
-There already exists a quality assesment pipeline, https://github.com/Teichlab/celloline, but it is only executable on an amazon cluster. **I think that we can learn a lot from what they implemented there!**
+There already exists a quality assesment pipeline, https://github.com/Teichlab/celloline, with restrictions to only run on Amazon AWS. 
+**I think that we can learn a lot from what they implemented there!**
 
 ## Pipeline design ideas
 
@@ -23,8 +24,14 @@ Here is a hypothetical upstream workflow:
 | Assign reads to genes | featureCounts, Kallisto? | BAM + transcriptome GTF | BAM
 | Count unique reads per genes per cell | umi_tools count | BAM | Counts.txt
 
-We have to add a http://multiqc.info/ report for every step where it is necessary.
+We have to add http://multiqc.info/ report, combining interesting metrics on processing samples if that is possible. 
 **We are still lacking some trimming of the reads, if the quality is too bad (TrimGalore!, Cutadapt, Trimmomatic). What else are we missing?**
+
+## Testing
+
+We could either use published data, or simulate data e.g. using the methods described here:
+
+- https://www.biorxiv.org/content/early/2018/01/17/248716
 
 ## Downstream
 
